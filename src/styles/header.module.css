@@ -1,0 +1,40 @@
+nav {
+    display: flex;
+    justify-content: space-between; /* Mantém a logo à esquerda e os itens de navegação à direita */
+    align-items: center; /* Alinha os itens verticalmente ao centro */
+    background-color: #272727; /* Cor do fundo da navegação */
+    height: 10vh; /* Altura da barra de navegação */
+    padding: 0 20px; /* Adiciona um pouco de espaço nas laterais */
+}
+
+.navlist {
+    list-style: none; /* Remove as bolinhas das listas */
+    display: flex; /* Torna a lista flexível para alinhar itens horizontalmente */
+    margin: 0; /* Remove a margem padrão da lista */
+    padding: 0; /* Remove o padding padrão da lista */
+}
+
+.navlist li {
+    letter-spacing: 3px; /* Espaçamento entre letras */
+    margin-left: 32px; /* Margem à esquerda entre os itens */
+}
+
+.logo {
+    height: 60px; /* Altura da logo */
+    display: flex; /* Flex para alinhar o conteúdo da logo */
+    align-items: center; /* Centraliza a logo verticalmente */
+}
+
+.linkk {
+    text-decoration: none; /* Remove o sublinhado dos links */
+    color: white; /* Define a cor do texto dos links */
+}
+
+.logoutButton {
+    background: none; /* Remove o fundo do botão */
+    border: none; /* Remove a borda do botão */
+    color: white; /* Define a cor do texto do botão */
+    cursor: pointer; /* Cursor de mão ao passar o mouse sobre o botão */
+    font-size: 16px; /* Tamanho da fonte do botão */
+}
+

@@ -1,0 +1,56 @@
+footer{
+    background-color: #272727;
+    height: 49vh;
+    align-items: center;
+    max-height: 500px;
+}
+
+.footercontainer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px 30px;
+
+}
+
+.logofooter{
+    width: 250px;
+    height: auto;
+    align-items: center; 
+}
+.textfooter{
+    color: #D42A31;
+   
+}
+.redesfooter{
+    color: #D42A31;
+}
+.fainstagram{
+    font-size: 30px;
+}
+.fawhatsapp{
+    font-size: 30px;
+}
+.icons{
+    display: flex;
+    justify-content: space-around;
+}
+#backToTop {
+    position: fixed; /* Fixa o botão na tela */
+    bottom: 20px; /* Distância do fundo */
+    right: 20px; /* Distância da direita */
+    padding: 10px 15px; /* Espaçamento interno */
+    background-color: #333; /* Cor de fundo */
+    color: white; /* Cor do texto */
+    border: none; /* Remove a borda */
+    cursor: pointer; /* Muda o cursor ao passar o mouse */
+    display: none; /* Inicialmente escondido */
+    border-radius: 50%; /*aredonda*/
+}
+.faarrowup{
+    font-size: 30px;
+}
+
+#backToTop:hover {
+    background-color: #555; 
+}

@@ -1,0 +1,31 @@
+.logo{
+    height: 70px; 
+    display: flex; 
+    align-items: center; 
+    margin-right: 100vh;
+}
+
+.nav-list{
+    list-style: none;
+    display: flex;
+}
+
+.nav-list li {
+    letter-spacing: 3px;
+    margin-left: 32px;
+}
+.h1{
+    color: #D42A31;
+    
+    text-align: center;
+}
+.titulo{
+    padding: 50px;
+    min-height: 50vh;
+}
+.home{
+    opacity: 0.7;
+    
+}
+
+
